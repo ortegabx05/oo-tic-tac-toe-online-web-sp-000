@@ -103,6 +103,7 @@ WIN_COMBINATIONS = [
       nil
      end
    end
+<<<<<<< HEAD
   end
   
   def play
@@ -122,3 +123,18 @@ WIN_COMBINATIONS = [
 
  
 
+=======
+  
+
+ def play
+  while over? == false
+    turn
+  end
+  if won?
+    puts "Congratulations #{winner}!"
+  elsif draw?
+    puts "Cat's Game!"
+ end
+ 
+end
+>>>>>>> 9102ebd8475ca1ef19acbf42f84ce1af5ca7f515
